@@ -1,0 +1,42 @@
+body {
+    font-size: 20px;
+    background-color: #775656;
+    font-family: 'Pixelify Sans', cursive !important;
+  }
+
+  #rightColumn {
+    flex-basis: 50%; 
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    color: #5f5555;
+    border: 1px solid #272525;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    position: absolute;
+    left: 50%;
+    transform: translateX(0%); 
+  }
+ #leftColumn {
+    flex-basis: 57%;
+    max-width: 400px;
+    max-height: 450px;
+    margin: 10px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    color: #5f5555;
+    border: 1px solid #131212;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(196, 139, 139, 0.1);
+    overflow-y: scroll;
+    scrollbar-color: #7a1015 #ffffff;
+    scrollbar-width: thin;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+  
+  }
